@@ -1,6 +1,5 @@
 package gl;
 
-
 import GL.Service;
 
 public class RendezVous {
@@ -9,7 +8,7 @@ public class RendezVous {
     private String dateRDV;
     private boolean estUrgent;
     private String statut;
-
+    
     public RendezVous(Service service, String motif, String dateRDV, boolean estUrgent) {
         this.service = service;
         this.motif = motif;
