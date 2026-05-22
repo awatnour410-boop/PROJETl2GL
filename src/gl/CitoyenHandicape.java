@@ -1,9 +1,5 @@
 package gl;
 
-
-
-import GL.Citoyen;
-
 public class CitoyenHandicape extends Citoyen {
     private String typeHandicap;
 
@@ -25,4 +21,3 @@ public class CitoyenHandicape extends Citoyen {
 
     public String getTypeHandicap() { return typeHandicap; }
 }
-

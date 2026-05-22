@@ -1,7 +1,5 @@
 package gl;
 
-import GL.Service;
-
 public class RendezVous {
     private Service service;
     private String motif;
