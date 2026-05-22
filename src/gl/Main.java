@@ -25,11 +25,15 @@ public class Main {
             "La Mairie gère l'état civil des citoyens, officialise les unions (mariages) et légalise les documents administratifs officiels."
         );
 
+        
+        
         Service police = new Service(
             "Poste de Police", "Le Commissaire", "5 Agents", "24h/24",
             "Sécurité, Maintien de l'ordre, Délivrance CNI",
             "Le Poste de Police assure la sécurité publique, le maintien de l'ordre dans l'arrondissement et gère les procédures de délivrance de la CNI."
         );
+        
+        
 
         Service sante = new Service(
             "Centre de Santé", "Le Médecin-Chef", "4 Infirmiers", "07h - 18h",
@@ -37,6 +41,7 @@ public class Main {
             "Le Centre de Santé offre les soins médicaux de première urgence, gère les campagnes de vaccination et assure les consultations médicales de routine."
         );
 
+        
         ngaoundere3e.ajouterService(mairie);
         ngaoundere3e.ajouterService(police);
         ngaoundere3e.ajouterService(sante);
