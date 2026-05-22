@@ -37,6 +37,7 @@ public class Citoyen extends Utilisateur {
         System.out.println("\n>> PROFIL CITOYEN <<");
         System.out.println(this.toString());
     }
+    
 
     @Override
     public String toString() {
@@ -53,6 +54,7 @@ public class Citoyen extends Utilisateur {
                "Privilège      : " + privilegeChoisi;
     }
 
+    
     public String getAdresse() { return adresse; }
     public String getTelephone() { return telephone; }
     public boolean isEstHandicape() { return estHandicape; }
